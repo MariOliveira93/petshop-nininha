@@ -25,12 +25,18 @@ Este é um projeto de website completo para um pet shop, desenvolvido como parte
 - Identidade Visual Consistente: Padronização de fontes, cores (foco no laranja e branco) e componentes em todo o projeto.
 
 📂 Estrutura do Projeto
+
 Plaintext
+
 src/
 ├── assets/         # Imagens reais do PetShop (creche, hotel, banho)
+
 ├── components/     # Componentes reutilizáveis (Carrossel, Footer, Navbar)
+
 ├── App.jsx         # Gerenciador de rotas e estrutura principal
+
 ├── App.css         # Estilização global do projeto
+
 └── main.jsx        # Ponto de entrada da aplicação
 
 
