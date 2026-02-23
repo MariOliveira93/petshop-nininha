@@ -1,0 +1,58 @@
+/* Container principal que ocupa toda a largura */
+.sephora-header {
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 40px 0 20px 0;
+  display: flex;         /* Ativa o flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* Container interno com largura máxima para não espalhar demais */
+.header-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column; /* Empilha logo e menu */
+  align-items: center;    /* Centraliza todos os filhos */
+  text-align: center;
+}
+
+.header-logo {
+  font-size: 36px;
+  font-weight: 300;       /* Estilo Sephora: fonte mais fina */
+  letter-spacing: 6px;    /* Espaçamento elegante entre letras */
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+/* Detalhe laranja centralizado sob o logo */
+.header-logo::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #FF8C00;
+  margin: 10px auto 0;    /* O 'auto' centraliza a barrinha */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;              /* Espaço entre os links */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FF8C00;         /* Laranja apenas no hover */
+}

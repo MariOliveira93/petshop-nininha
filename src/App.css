@@ -1,0 +1,121 @@
+/* src/App.css */
+
+/* Reset básico para tirar espaços vazios */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf5;
+}
+
+/* HEADER: Organizando em uma linha só */
+.navbar {
+  background-color: #ff8c00;
+  padding: 15px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.menu li {
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.menu li:hover {
+  color: #ffe0b3;
+}
+
+/* HERO: Centralizando o texto inicial */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #4a2c00;
+  margin-bottom: 20px;
+}
+
+/* CARROSSEL: Centralizando o card na tela */
+.carrossel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #fff4e6; /* Fundo laranja clarinho */
+}
+
+.card-carrossel {
+  background: white;
+  width: 100%;
+  max-width: 500px; /* Largura máxima do card */
+  padding: 50px;
+  border-radius: 40px;
+  text-align: center;
+  border: 4px solid #ff8c00;
+  box-shadow: 0 15px 30px rgba(255, 140, 0, 0.15);
+}
+
+.icone-carrossel {
+  font-size: 5rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.card-carrossel h3 {
+  color: #e67e00;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.desc-card {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.botao-seta {
+  background-color: #ff8c00;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao-seta:hover {
+  background-color: #e67e00;
+  transform: scale(1.05);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit; /* Mantém a cor que você já definiu para o menu */
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #FF8C00; /* Destaque em laranja ao passar o mouse */
+}

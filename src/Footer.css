@@ -1,0 +1,65 @@
+.footer-nininha {
+  background-color: #ffffff;
+  border-top: 1px solid #eeeeee;
+  padding: 60px 20px 20px 20px;
+  color: #333;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: left;
+}
+
+.footer-brand h2 {
+  color: #FF8C00; /* Laranja da marca */
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-links h3, .footer-contact h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-links li:hover {
+  color: #FF8C00;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #f5f5f5;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}
