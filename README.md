@@ -1,18 +1,45 @@
-# React + Vite
+🐾 PetShop Nininha - Website Responsivo em React
+Este é um projeto de website completo para um pet shop, desenvolvido como parte do meu aprendizado em desenvolvimento web moderno. O site é uma SPA (Single Page Application) que apresenta serviços de Creche, Hotelzinho e Banho & Tosa.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias Utilizadas
+React.js: Biblioteca principal para construção da interface.
 
-Currently, two official plugins are available:
+React Router Dom: Utilizado para o gerenciamento de rotas e navegação sem recarregamento de página.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+JavaScript (ES6+): Lógica de programação e manipulação de estados.
 
-## React Compiler
+CSS3: Estilização personalizada, garantindo uma identidade visual única e acolhedora.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Vite: Ferramenta de build para um desenvolvimento rápido e otimizado.
 
-Note: This will impact Vite dev & build performances.
+🛠️ Funcionalidades
+Página Inicial (Home): Com um carrossel dinâmico apresentando os principais serviços utilizando fotos reais.
 
-## Expanding the ESLint configuration
+Navegação Fluida: Sistema de rotas configurado para alternar entre os serviços de Creche, Hotelzinho e Banho & Tosa de forma instantânea.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Páginas de Serviço: Detalhamento de benefícios e cuidados específicos para cada modalidade de atendimento pet.
+
+Área de Contato: Formulário estruturado para facilitar o agendamento e comunicação com os clientes.
+
+Identidade Visual Consistente: Padronização de fontes, cores (foco no laranja e branco) e componentes em todo o projeto.
+
+📂 Estrutura do Projeto
+Plaintext
+src/
+├── assets/         # Imagens reais do PetShop (creche, hotel, banho)
+├── components/     # Componentes reutilizáveis (Carrossel, Footer, Navbar)
+├── App.jsx         # Gerenciador de rotas e estrutura principal
+├── App.css         # Estilização global do projeto
+└── main.jsx        # Ponto de entrada da aplicação
+💻 Como rodar o projeto localmente
+Clone este repositório.
+
+No terminal, instale as dependências:
+
+Bash
+npm install
+Inicie o servidor de desenvolvimento:
+
+Bash
+npm run dev
+Acesse http://localhost:5173 no seu navegador.
